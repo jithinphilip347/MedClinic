@@ -3,7 +3,7 @@ import registerUser from '../controllers/userCntroller.js';
 
 const router = express.Router();
 
-router.get('/', registerUser)
+router.get('/signup', registerUser)
 
 
 export default router
